@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Piedra';
+    src: url('fonts/Piedra/Piedra-Regular.eot');
+    src: local('Piedra Regular'), local('Piedra-Regular'),
+        url('fonts/Piedra/Piedra-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Piedra/Piedra-Regular.woff2') format('woff2'),
+        url('fonts/Piedra/Piedra-Regular.woff') format('woff'),
+        url('fonts/Piedra/Piedra-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manjari';
+    src: url('fonts/Manjari/Manjari-Bold.eot');
+    src: local('Manjari Bold'), local('Manjari-Bold'),
+        url('fonts/Manjari/Manjari-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Manjari/Manjari-Bold.woff2') format('woff2'),
+        url('fonts/Manjari/Manjari-Bold.woff') format('woff'),
+        url('fonts/Manjari/Manjari-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

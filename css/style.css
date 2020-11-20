@@ -1,0 +1,183 @@
+body {
+  background-color: #020051;
+  font-family: "Piedra", "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+footer,
+#notation {
+  color: #ffffff;
+}
+
+footer {
+  font-family: "Segoe UI";
+}
+
+#logo-link{
+  position: relative;
+}
+
+#logo{
+  position: absolute;
+  height: 70%;
+}
+
+#card {
+  background: linear-gradient(180deg, #00069a 0%, rgba(0, 255, 240, 0) 100%),
+    linear-gradient(180deg, rgba(0, 255, 240, 0) 31.08%, #00fff0 100%),
+    linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 30px;
+  box-sizing: border-box;
+  border: white 10px solid;
+  padding: 3% !important;
+  margin: 5% !important;
+}
+
+#arrow {
+  background: white;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+#nums {
+  padding-top: 20%;
+  padding-left: 10%;
+  font-size: 2.5em;
+  letter-spacing: 3px;
+  font-family: "Manjari";
+}
+
+.name-game,
+#email,
+#check,
+#c-h,
+#m-y-inp,
+#m-y,
+.required {
+  font-size: 1.5em;
+  font-family: "Manjari";
+}
+
+#email,
+#m-y-inp,
+#c-h {
+  border: 0px;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+}
+
+#check {
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 0px;
+}
+
+#check-circle {
+  height: 5ex;
+  width: 5ex;
+  background-color: greenyellow;
+  border-radius: 50%;
+  border: white 5px solid;
+}
+
+#top-wins {
+  background-color: #424af8;
+  color: #ffffff;
+  font-family: "Manjari";
+}
+
+#search {
+  background-color: #eb00ff;
+}
+
+#button-search {
+  color: #eb00ff;
+  border-radius: 15px;
+  border: 0;
+  padding: 5px;
+}
+
+#button-search:hover {
+  color: #fff;
+  background-color: #eb00ff;
+  border-radius: 15px;
+  border: #fff 2px solid;
+}
+
+#view-more-button{
+  background: linear-gradient(180deg, #0094FF 0%, rgba(4, 0, 208, 0) 100%), #0C0383;
+  color: #fff;
+  border-radius: 26px;
+  border: 0;
+  padding: 10px;
+  font-family: "Piedra", "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#view-more-button:hover {
+  border: 0;
+  color: #0500ff;
+  background: #fff;
+  border-radius: 26px;
+}
+
+#show-card-button {
+  background: linear-gradient(180deg, #c900c9 0%, rgba(118, 2, 118, 0) 100%),
+    #0500ff;
+  color: #fff;
+  border-radius: 26px;
+  border: 0;
+  padding: 10px;
+}
+
+#show-card-button:hover {
+  border: 0;
+  background: #eb00ff;
+  border-radius: 26px;
+}
+
+#get-card-button {
+  background: linear-gradient(180deg, #c90000 0%, rgba(118, 2, 2, 0) 100%),
+    #ff2a2a;
+  color: #fff;
+  border-radius: 26px;
+  border: 0;
+  padding: 10px;
+}
+
+#get-card-button:hover {
+  border: 0;
+  background: #eb00ff;
+  border-radius: 26px;
+}
+
+#categories {
+  align-content: center;
+  background-color: #ff0000;
+  font-family: "Manjari";
+  font-style: normal;
+  font-weight: bold;
+}
+
+#main-banner {
+  background-color: #424af8;
+}
+
+#ad-board {
+  background-color: #00fff0;
+}
+
+img.gameOfSharlatan {
+  border-radius: 10px;
+}
+
+#account {
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+#game-board {
+  background-color: #7000ff;
+}

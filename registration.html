@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!— Required meta tags —>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!— Bootstrap CSS —>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/fonts.css" type="text/css" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+    <title>Registration - Casino Sharlatan</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar">
+          <div class="col-3">
+            <a href="index.html">
+              <img src="img/LogoName.png" alt="Logo" width="90%" />
+            </a>
+          </div>
+          <div class="col">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="gameRoom.html">
+                  GAME ROOM
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"> TOURNAMENTS </a>
+              </li>
+              <li class="nav-item text-white">
+                <a class="nav-link text-white" href="#"> SHOP </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"> EVENTS </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"> FAQ </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <button type="button" id="show-card-button" class="mr-auto">
+              Show the card
+            </button>
+          </div>
+          <div id="account">
+            <img src="img/account.png" alt="account" width="30px" />
+          </div>
+        </nav>
+      </header>
+
+      <div class="row justify-content-around p-2" id="notation">
+        <h5>Lets’s make a play card</h5>
+        <h6><span style="color: red">*</span>Fill in all required fields</h6>
+        <h5>Already have? Show the card</h5>
+        <img src="img/arrow.png" alt="arrow" width="5%" id="arrow" />
+      </div>
+
+      <div id="card-field">
+        <div id="card" class="m-4 p-4">
+          <img
+            class="offset-md-6"
+            src="img/LogoName.png"
+            alt="Logo"
+            width="50%"
+          />
+          <div>
+            <h5 id="nums">1234 5678 9876 5432</h5>
+          </div>
+          <div class="col-md-5 offset-md-3">
+            <h6 id="m-y"><span style="color: red">*</span>month/year</h6>
+            <input id="m-y-inp" placeholder="00/00" />
+          </div>
+          <div class="row justify-content-around p-4">
+            <span style="color: red" class="required">*</span
+            ><input id="c-h" placeholder="CardHolder" />
+            <span style="color: red" class="required">*</span
+            ><input id="email" placeholder="Email" />
+            <div id="check-circle">
+              <p id="check">✔</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-6">
+            <h5>Important</h5>
+            <div class="row">
+              <div class="col">
+                <ul class="list-unstyled text-small">
+                  <li><a> About Us </a></li>
+                  <li><a> News </a></li>
+                  <li><a> Terms and Conditions </a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="list-unstyled text-small">
+                  <li><a> Shop </a></li>
+                  <li><a> FAQ </a></li>
+                  <li><a> Feedback </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h5>Contacts</h5>
+            <ul class="list-unstyled text-small">
+              <li><p>+7-(499)-300-90-89</p></li>
+              <li><p>sharlatan@sss.ru</p></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h5>Follow Us</h5>
+            <div class="row p-1">
+              <img
+                src="img/facebook.svg"
+                alt="Facebook"
+                width="30px"
+                class="p-1"
+              />
+              <img
+                src="img/twitter.svg"
+                alt="Twitter"
+                width="30px"
+                class="p-1"
+              />
+              <img src="img/vk.svg" alt="VK" width="30px" class="p-1" />
+            </div>
+            <div class="row p-1">
+              <img
+                src="img/instagram.svg"
+                alt="Instagram"
+                width="30px"
+                class="p-1"
+              />
+              <img
+                src="img/youtube.svg"
+                alt="Youtube"
+                width="30px"
+                class="p-1"
+              />
+              <img src="img/ok.svg" alt="OK" width="30px" class="p-1" />
+            </div>
+          </div>
+        </div>
+        ©2020 Club Sharlatan. All rights reserved.
+      </footer>
+    </div>
+  </body>
+</html>
