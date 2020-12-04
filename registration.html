@@ -82,19 +82,27 @@
           <div>
             <h5 id="nums">1234 5678 9876 5432</h5>
           </div>
-          <div class="col-md-5 offset-md-3">
-            <h6 id="m-y"><span style="color: red">*</span>month/year</h6>
-            <input id="m-y-inp" placeholder="00/00" />
-          </div>
-          <div class="row justify-content-around p-4">
-            <span style="color: red" class="required">*</span
-            ><input id="c-h" placeholder="CardHolder" />
-            <span style="color: red" class="required">*</span
-            ><input id="email" placeholder="Email" />
-            <div id="check-circle">
-              <p id="check">✔</p>
+          <form id="card-form">
+            <div class="col-5 offset-md-3">
+              <h6 id="m-y"><span style="color: red">*</span>month/year</h6>
+              <input id="m-y-inp" placeholder="00/00" />
             </div>
-          </div>
+            <div class="row justify-content-around p-4">
+              <div class="col-md">
+                <span style="color: red" class="required">*</span
+                ><input id="c-h" placeholder="CardHolder" />
+              </div>
+              <div class="col-md">
+                <span style="color: red" class="required">*</span
+                ><input id="email" placeholder="Email" />
+              </div>
+              <div class="col-sm-1">
+                <div id="check-circle">
+                  <button type="submit" id="check" form="card-form">✔</button>
+                </div>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
 

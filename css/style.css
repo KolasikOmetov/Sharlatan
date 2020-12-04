@@ -14,11 +14,11 @@ footer {
   font-family: "Segoe UI";
 }
 
-#logo-link{
+#logo-link {
   position: relative;
 }
 
-#logo{
+#logo {
   position: absolute;
   height: 70%;
 }
@@ -55,6 +55,7 @@ footer {
 #m-y-inp,
 #m-y,
 .required {
+  width: 100%;
   font-size: 1.5em;
   font-family: "Manjari";
 }
@@ -69,8 +70,12 @@ footer {
 
 #check {
   text-align: center;
-  vertical-align: middle;
-  margin-bottom: 0px;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
 }
 
 #check-circle {
@@ -105,8 +110,9 @@ footer {
   border: #fff 2px solid;
 }
 
-#view-more-button{
-  background: linear-gradient(180deg, #0094FF 0%, rgba(4, 0, 208, 0) 100%), #0C0383;
+#view-more-button {
+  background: linear-gradient(180deg, #0094ff 0%, rgba(4, 0, 208, 0) 100%),
+    #0c0383;
   color: #fff;
   border-radius: 26px;
   border: 0;
